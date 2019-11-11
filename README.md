@@ -146,4 +146,4 @@ Distributed under the MIT license. See [LICENSE](./LICENSE) for more information
 [platform-image]: https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat
 [pr-welcome-image]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [cocoapods-image]:https://img.shields.io/cocoapods/v/SwiftyRecordButtons
-[cocoapods-url]:https://img.shields.io/cocoapods/v/LFAlertController.svg
+[cocoapods-url]:https://cocoapods.org/pods/SwiftyRecordButtons
