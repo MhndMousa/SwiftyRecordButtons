@@ -11,7 +11,7 @@
 		3D400486F025E1A9A0DF44341CB2E4FA /* Pods-SwiftyRecordButtons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8099B1939CD903F8FB767F84CA1CE4C /* Pods-SwiftyRecordButtons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B8BFDAB73F714DA1169F9F99CC83E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8D8EEB7B7A56E74EE2EDBD0358F23D8C /* SwiftyRecordButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E94D267CFCC1396AB239ECF3865AB88 /* SwiftyRecordButtons-dummy.m */; };
-		A0A9D44B7E81763CE96E3030A4023093 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439CBC29F3693F6D5D3B32D35D8296D /* ReplaceMe.swift */; };
+		A0A9D44B7E81763CE96E3030A4023093 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439CBC29F3693F6D5D3B32D35D8296D /* RecordButton.swift */; };
 		BFC8FF4B4547B5DFF9EB83CA028AB583 /* Pods-SwiftyRecordButtons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924DD2B1768A3576CA90AB416B60C5A /* Pods-SwiftyRecordButtons_Tests-dummy.m */; };
 		E1569224313E619257B832983A1D9FDE /* SwiftyRecordButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276512010D861393EE01ABC3B2C8CBB3 /* SwiftyRecordButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -28,24 +28,24 @@
 
 /* Begin PBXFileReference section */
 		1553B2849E7266AFFBE9553713C946B7 /* Pods-SwiftyRecordButtons_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRecordButtons_Tests-Info.plist"; sourceTree = "<group>"; };
-		17D81D4C746205AD028FA50673DD54F7 /* Pods_SwiftyRecordButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyRecordButtons_Tests.framework; path = "Pods-SwiftyRecordButtons_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2439CBC29F3693F6D5D3B32D35D8296D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyRecordButtons/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		17D81D4C746205AD028FA50673DD54F7 /* Pods_SwiftyRecordButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyRecordButtons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2439CBC29F3693F6D5D3B32D35D8296D /* RecordButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordButton.swift; path = SwiftyRecordButtons/Classes/RecordButton.swift; sourceTree = "<group>"; };
 		276512010D861393EE01ABC3B2C8CBB3 /* SwiftyRecordButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRecordButtons-umbrella.h"; sourceTree = "<group>"; };
-		2C4F63D6044AE2B0E9585B0249EFA8E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C4F63D6044AE2B0E9585B0249EFA8E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3924DD2B1768A3576CA90AB416B60C5A /* Pods-SwiftyRecordButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyRecordButtons_Tests-dummy.m"; sourceTree = "<group>"; };
 		51C3551EB98F9F932BCF58F895E768A2 /* Pods-SwiftyRecordButtons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyRecordButtons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		63D76673C591B56CDDAFB62F2020CB12 /* Pods-SwiftyRecordButtons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRecordButtons_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		70D034803F9528B03EFA67E1B571639A /* Pods-SwiftyRecordButtons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyRecordButtons_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7F68661708ADB4D4C155E77EA927CB00 /* SwiftyRecordButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRecordButtons.framework; path = SwiftyRecordButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		822F400BB6597397E473014256C3FF1B /* SwiftyRecordButtons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyRecordButtons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F68661708ADB4D4C155E77EA927CB00 /* SwiftyRecordButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRecordButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822F400BB6597397E473014256C3FF1B /* SwiftyRecordButtons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyRecordButtons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8ACBBC27C6F19D0F565D997541029C26 /* SwiftyRecordButtons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyRecordButtons-Info.plist"; sourceTree = "<group>"; };
 		980F5AD5B41BA3C92D586BA64FC0F4C1 /* SwiftyRecordButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRecordButtons.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E94D267CFCC1396AB239ECF3865AB88 /* SwiftyRecordButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRecordButtons-dummy.m"; sourceTree = "<group>"; };
 		ADA62F0DBCA56374659E23D186FB9EDD /* Pods-SwiftyRecordButtons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRecordButtons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8099B1939CD903F8FB767F84CA1CE4C /* Pods-SwiftyRecordButtons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyRecordButtons_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BA230806654612CEDB87923999D7BE9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA230806654612CEDB87923999D7BE9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE7EA6E0AF0B8F4E024055E6E8854A07 /* Pods-SwiftyRecordButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyRecordButtons_Tests.modulemap"; sourceTree = "<group>"; };
 		DEED0AB7812E0E46AD382DB77C0382C0 /* SwiftyRecordButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRecordButtons.modulemap; sourceTree = "<group>"; };
 		FB3D25775B00652E55891F4AE1011B52 /* Pods-SwiftyRecordButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRecordButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		036BE75CA0D0F4B6DDFA27DE61C40411 /* SwiftyRecordButtons */ = {
 			isa = PBXGroup;
 			children = (
-				2439CBC29F3693F6D5D3B32D35D8296D /* ReplaceMe.swift */,
+				2439CBC29F3693F6D5D3B32D35D8296D /* RecordButton.swift */,
 				5E67B777E7F4952BBE619F65E6BED2CD /* Pod */,
 				8193619B83CCFF54251E4961B0CC0873 /* Support Files */,
 			);
@@ -285,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A9D44B7E81763CE96E3030A4023093 /* ReplaceMe.swift in Sources */,
+				A0A9D44B7E81763CE96E3030A4023093 /* RecordButton.swift in Sources */,
 				8D8EEB7B7A56E74EE2EDBD0358F23D8C /* SwiftyRecordButtons-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
