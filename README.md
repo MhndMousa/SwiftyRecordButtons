@@ -1,4 +1,4 @@
-# SwiftyRecordButton
+# SwiftyRecordButtons
 
 > Light-wieght flashy Record button that can be easily added to any project
 
@@ -35,18 +35,18 @@
 
 #### CocoaPods
 
-You can use [CocoaPods](http://cocoapods.org/) to install `SwiftyRecordButton` by adding it to your `Podfile`:
+You can use [CocoaPods](http://cocoapods.org/) to install `SwiftyRecordButtons` by adding it to your `Podfile`:
 
 ```ruby
 use_frameworks!
-pod 'SwiftyRecordButton'
+pod 'SwiftyRecordButtons'
 ```
 
-To get the full benefits import `SwiftyRecordButton` wherever you import UIKit
+To get the full benefits import `SwiftyRecordButtons` wherever you import UIKit
 
 ```swift
 import UIKit 
-import SwiftyRecordButton
+import SwiftyRecordButtons
 ```
 
 #### Manually
@@ -62,7 +62,7 @@ import SwiftyRecordButton
 
 #### Adding the button to the project 
 ```swift
-import SwiftyRecordButton
+import SwiftyRecordButtons
 
 class YourViewController : UIViewController{
    
@@ -126,7 +126,7 @@ class YourViewController:UIViewController{
 
 ## Contribute
 
-We would love you for the contribution to **SwiftyRecordButton**, check the `LICENSE` file for more info.
+We would love you for the contribution to **SwiftyRecordButtons**, check the `LICENSE` file for more info.
 
 ## Meta
 
@@ -135,7 +135,7 @@ Muhannad Alnemer – [@MhndMousa](https://twitter.com/mhndmousa)
 Distributed under the MIT license. See [LICENSE](./LICENSE) for more information.
 
 
-[swift-image]: https://img.shields.io/badge/swift-5.0-orange.svg
+[swift-image]: https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
@@ -145,5 +145,5 @@ Distributed under the MIT license. See [LICENSE](./LICENSE) for more information
 [codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
 [platform-image]: https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat
 [pr-welcome-image]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[cocoapods-image]:https://img.shields.io/cocoapods/v/LFAlertController.svg
+[cocoapods-image]:https://img.shields.io/cocoapods/v/SwiftyRecordButtons
 [cocoapods-url]:https://img.shields.io/cocoapods/v/LFAlertController.svg
