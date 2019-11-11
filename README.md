@@ -22,7 +22,7 @@
 ## Features
 
 - [x] Burst animation upon click completion
-- [x] Detects when use cancels click
+- [x] Detection of click cancel for both states
 - [ ] Play button
 - [ ] Rewind & Forward buttons
 
