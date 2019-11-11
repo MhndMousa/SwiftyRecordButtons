@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyRecordButtons (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyRecordButtons (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyRecordButtons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyRecordButtons: f89d0c3a440fa4d28384619c0d62483971e8d753
+
+PODFILE CHECKSUM: 955360f48ccd82dd7880c78d227f7902dbe292ee
+
+COCOAPODS: 1.8.4
