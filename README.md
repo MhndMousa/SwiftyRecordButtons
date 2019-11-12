@@ -12,11 +12,9 @@
 
 
 <p align = "center">
-
-<img width = "150px" src="./Assets/Demo1.gif"/>
-
-<img width = "150px" src="./Assets/Cancel1.gif"/>
-<img width = "150px" src="./Assets/Cancel2.gif"/>
+<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Demo1.gif?raw=true"/>
+<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Assets/Cancel1.gif?raw=true"/>
+<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Assets/Cancel2.gif?raw=true"/>
 </p>
 
 
@@ -139,7 +137,7 @@ Distributed under the MIT license. See [LICENSE](./LICENSE) for more information
 [swift-image]: https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: LICENSE
+[license-url]: https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/LICENSE
 [travis-image]: https://travis-ci.org/MhndMousa/SwiftyRecordButtons.svg?branch=master
 [travis-url]: https://travis-ci.org/MhndMousa/SwiftyRecordButtons
 [platform-image]: https://img.shields.io/cocoapods/p/SwiftyRecordButtons.svg?style=flat
