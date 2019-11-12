@@ -5,9 +5,10 @@
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
 [![CocoaPods Compatible][cocoapods-image]][cocoapods-url]
-![Platform][platform-image]
+[![Platform][platform-image]][cocoapods-url]
 ![PRs Welcome][pr-welcome-image]
-[![Build Status][travis-image]][travis-url]
+
+<!--[![Build Status][travis-image]][travis-url] -->
 
 
 <p align = "center">
@@ -139,11 +140,9 @@ Distributed under the MIT license. See [LICENSE](./LICENSE) for more information
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
-[codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
-[platform-image]: https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat
-[pr-welcome-image]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[travis-image]: https://travis-ci.org/MhndMousa/SwiftyRecordButtons.svg?branch=master
+[travis-url]: https://travis-ci.org/MhndMousa/SwiftyRecordButtons
+[platform-image]: https://img.shields.io/cocoapods/p/SwiftyRecordButtons.svg?style=flat
+[pr-welcome-image]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat
 [cocoapods-image]:https://img.shields.io/cocoapods/v/SwiftyRecordButtons
 [cocoapods-url]:https://cocoapods.org/pods/SwiftyRecordButtons
