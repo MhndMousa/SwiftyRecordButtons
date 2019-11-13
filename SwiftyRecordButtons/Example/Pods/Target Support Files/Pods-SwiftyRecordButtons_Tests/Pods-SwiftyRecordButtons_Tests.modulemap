@@ -1,0 +1,6 @@
+framework module Pods_SwiftyRecordButtons_Tests {
+  umbrella header "Pods-SwiftyRecordButtons_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

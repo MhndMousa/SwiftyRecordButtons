@@ -1,0 +1,6 @@
+framework module SwiftyRecordButtons {
+  umbrella header "SwiftyRecordButtons-umbrella.h"
+
+  export *
+  module * { export * }
+}
