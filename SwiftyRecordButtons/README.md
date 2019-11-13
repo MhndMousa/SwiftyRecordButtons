@@ -13,8 +13,8 @@
 
 <p align = "center">
 <img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Demo1.gif?raw=true"/>
-<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Cancel1.gif?raw=true"/>
-<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Cancel2.gif?raw=true"/>
+<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Assets/Cancel1.gif?raw=true"/>
+<img width = "150px" src="https://github.com/MhndMousa/SwiftyRecordButtons/blob/master/Assets/Assets/Cancel2.gif?raw=true"/>
 </p>
 
 
