@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyRecordButtons'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Light-wieght flashy Record button that can be easily added to any project.'
   s.swift_versions   = '4.0'
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Easy way to add flashy button to your project. Light-wieght flashy Record button
   s.source           = { :git => 'https://github.com/mhndmousa/SwiftyRecordButtons.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'SwiftyRecordButtons/Classes/**/*'
   
